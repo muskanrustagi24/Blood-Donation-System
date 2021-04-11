@@ -20,7 +20,6 @@ function addDonor(name, age, contact, city, blood_group, any_health_issues, done
 
 function createDonor () {
     return $ (`
-    <table align="center" border="1" cellspacing="5" cellpadding="5">
         <tr>
             <td>${donor.name}</td>
             <td>${donor.age}</td>
@@ -29,6 +28,6 @@ function createDonor () {
             <td>${donor.blood_group}</td>
             <td>${donor.any_health_issues}</td>
         </tr>
-    </table>`
+    `
     )
 }
