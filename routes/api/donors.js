@@ -17,8 +17,7 @@ route.get('/', (req,res) => {
 })
 
 route.post('/', (req,res) => {
-    //We expect the req to have name in it
-    //We will create a new donor
+    //Add a new donor
 
     Donor.create({
         name: req.body.name,

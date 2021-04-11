@@ -8,7 +8,7 @@ const db = new Sequelize('bloodDonorDB','admin','mypass123',{
         max: 5
     }
 })
-
+  
 const Donor = db.define('donors', {
     id: {
         type : Sequelize.INTEGER,
@@ -27,7 +27,7 @@ const Donor = db.define('donors', {
     },
 
     contact : {
-        type :Sequelize.INTEGER,
+        type :Sequelize.BIGINT,
         allowNull : false
     },
 
