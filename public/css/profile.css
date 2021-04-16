@@ -28,22 +28,22 @@ body {
 
 #logout {
     position: relative;
-    right: -700px;
+    right: -680px;
 }
 
 #username {
     position: relative;
-    right: -500px;
+    right: -450px;
     top:20px;
 }
 
 .main-text {
     font-weight: bold;
-    position: relative;
-    right: -600px;
     font-size: 25pt;
-    bottom: -250px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    bottom: -250px;
+    
 }
 
 .author-name {
@@ -51,3 +51,4 @@ body {
     top: 30px;
     padding-left: 230px;
 }
+
