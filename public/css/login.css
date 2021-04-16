@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 body {
     background-image: url("media/donate.jpg");
     background-size: 1300px 600px;
@@ -22,7 +21,8 @@ body {
 .ww {
     text-align: center;
     margin-top: 10px;
-=======
+}
+
 body {
     background-image: url("media/landing-page.jpg");
     background-size: 1550px 810px;
@@ -46,5 +46,4 @@ body {
 .ww {
     text-align: center;
     margin-top: 10px;
->>>>>>> 241545bff430568e84348ae57682c03879d2b5c9
 }

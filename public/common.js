@@ -29,9 +29,5 @@ function createDonor () {
             <td>${donor.any_health_issues}</td>
         </tr>
     `
-    )
-<<<<<<< HEAD
-}
-=======
-}
->>>>>>> 7ad18523f4e97d88a3ca08a6a812e53b38cc7881
+)}
+
