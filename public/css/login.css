@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     background-image: url("media/donate.jpg");
     background-size: 1300px 600px;
@@ -21,4 +22,29 @@ body {
 .ww {
     text-align: center;
     margin-top: 10px;
+=======
+body {
+    background-image: url("media/landing-page.jpg");
+    background-size: 1550px 810px;
+}
+.error {
+    color: red;
+}
+.login-form {
+    border-style: solid;
+    border-width: 1px;
+    margin-top: 30px;
+    margin-left: 30px;
+    background-color: gainsboro;
+    padding: 20px;
+}
+.line {
+    height: 1px;
+    background-color: gray;
+    margin-top: 20px;
+}
+.ww {
+    text-align: center;
+    margin-top: 10px;
+>>>>>>> 241545bff430568e84348ae57682c03879d2b5c9
 }
