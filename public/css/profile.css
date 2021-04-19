@@ -1,8 +1,3 @@
-body {
-    background-image: url(media/landing-page.gif);
-    background-size: 1280px 700px;
-}
-
 /* Add a black background color to the top navigation */
 .topnav {
     background-color: #333;
@@ -52,3 +47,8 @@ body {
     padding-left: 230px;
 }
 
+.header {
+    margin-top: 150px;
+    color: red;
+    text-align: center;
+}
