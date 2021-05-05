@@ -1,5 +1,6 @@
 function fetchDonors (done) {
-    $.get('/api/donors', function (data){
+    let bg = $('#donorBG').val()
+    $.get('/api/donors/' + bg, function (data){
         done (data)
     })
 }
@@ -29,5 +30,6 @@ function createDonor () {
             <td>${donor.any_health_issues}</td>
         </tr>
     `
-)}
+    )
+}
 

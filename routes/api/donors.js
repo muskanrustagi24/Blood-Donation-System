@@ -1,19 +1,23 @@
 const Donor = require('../../db').Donor
 const route = require('express').Router()
 
-route.get('/', (req,res) => {
+route.get('/:blood_group', (req,res) => {
    //We want to send an array of donors
    //From our database here
 
-   Donor.findAll()
-       .then((donors) => {
+   Donor.findAll({
+       where: {
+           blood_group : req.params.blood_group
+       }
+   })
+        .then((donors) => {
            res.status(200).send(donors)
-       })
-       .catch((err) => {
+        })
+        .catch((err) => {
            res.status(500).send({
               error : "Could not retrieve donors"
            })
-       })
+        })
 })
 
 route.post('/', (req,res) => {

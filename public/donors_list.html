@@ -9,27 +9,48 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     
-    <script src="common.js"></script>
-    <script src="donors_list.js"></script>
+    <link rel="stylesheet" href="donors_list.css">
+    <script defer src="common.js"></script>
+    <script defer src="donors_list.js"></script>
 </head>
 <body>
+    <div class="form-group ml-5 mt-5">
+        <label for="donorBG" class ="sub-heading"><b>Blood Group :</b></label>
+        <select id="donorBG">
+            <option>A+</option>
+            <option>AB+</option>
+            <option>B+</option>
+            <option>O+</option>
+            <option>A-</option>
+            <option>AB-</option>
+            <option>B-</option>
+            <option>O-</option>
+        </select>
+        <button id="subBtn" type="submit">Submit</button>
+    </div>
     <div class="conatiner">
         <div class="row">
             <div class="col"></div>
-            <h1 class="col" style="text-align: center;">List of donors</h1>
+            <h3 class="col" style="text-align: center;"><u>List of Donors</u></h3>
             <div class="col"></div>
         </div>
         <br>
-        <br>
-        <table class="ml-5" cellspacing="10" cellpadding="10" border="1" id="donor-list">
-            <tr>
-                <th>NAME</th>
-                <th>AGE</th>
-                <th>CONTACT</th>
-                <th>CITY</th>
-                <th>BLOOD GROUP</th>
-                <th>ANY HEALTH ISSUES</th>
-            </tr>
-        </table>
+        <div class="row">
+            <div class="col">
+                <table class="ml-5" cellspacing="10" cellpadding="10" border="1" id="donor-list">
+                    <tr>
+                        <th>NAME</th>
+                        <th>AGE</th>
+                        <th>CONTACT</th>
+                        <th>CITY</th>
+                        <th>BLOOD GROUP</th>
+                        <th>ANY HEALTH ISSUES</th>
+                    </tr>
+                </table>
+            </div>
+            <div class="col">
+                <img src="Media/blood-type-chart.png">
+            </div>
+        </div>
     </div>
 </body>
