@@ -14,7 +14,18 @@
     <script defer src="donors_list.js"></script>
 </head>
 <body>
+    <div class="topnav">
+        <a href="http://localhost:3232/">Home</a>
+        <a href="http://localhost:3232/add_donors.html">Donate</a>
+        <a href="http://localhost:3232/donors_list.html">Find Donor</a>
+        <a href="http://localhost:3232/events.html">Events</a>
+        <a href="http://localhost:3232/contact.html">Contact Us</a>
+    </div>
+    <h1>Find your donor here!</h1>
     <div class="form-group ml-5 mt-5">
+        <label for="City" class ="sub-heading"><b>City :</b></label>
+        <input type="text" id="City">
+        &emsp;
         <label for="donorBG" class ="sub-heading"><b>Blood Group :</b></label>
         <select id="donorBG">
             <option>A+</option>
@@ -26,12 +37,12 @@
             <option>B-</option>
             <option>O-</option>
         </select>
-        <button id="subBtn" type="submit">Submit</button>
+        &emsp;
+        <button id="subBtn" type="submit"><a href="#" style="text-decoration: none; color: white;">Search</a></button>
     </div>
     <div class="conatiner">
-        <div class="row">
-            <div class="col"></div>
-            <h3 class="col" style="text-align: center;"><u>List of Donors</u></h3>
+        <div class="row mt-5">
+            <div class="col"><h6 class="col ml-5"><u>LIST OF DONORS :</u></h6></div>
             <div class="col"></div>
         </div>
         <br>
