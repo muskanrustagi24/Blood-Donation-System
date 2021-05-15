@@ -18,9 +18,26 @@
     color: cyan;
 }
 
-h1{
+h5{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
     margin-top: 20px;
     font-size: 25pt;
+    padding-left: 200px;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+}
+
+#contact {
+    padding-left: 100px;
+    position: relative;
+    top:-80px;
+    margin: 30px;
+}
+
+#info {
+    position: relative;
+    top:-110px;
 }
